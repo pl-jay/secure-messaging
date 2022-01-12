@@ -5,11 +5,19 @@ const PREFIX = 'whatsapp-clone-'
 export default function useLocalStorage(key, initialValue) {
   const prefixedKey = PREFIX + key
   const [value, setValue] = useState(() => {
-    const jsonValue = localStorage.getItem(prefixedKey)
-    if (jsonValue != null) return JSON.parse(jsonValue)
+
+    const jsonValue = localStorage.getItem(prefixedKey);
+
+    if (jsonValue !== null) {
+      return JSON.parse(jsonValue);
+    }
+
     if (typeof initialValue === 'function') {
+      console.log(jsonValue)
       return initialValue()
     } else {
+      console.log(jsonValue)
+
       return initialValue
     }
   })
