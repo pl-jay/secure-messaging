@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/secure-messaging/static/css/main.1a8a0596.css",
+    "main.js": "/secure-messaging/static/js/main.c88064dc.js",
+    "index.html": "/secure-messaging/index.html",
+    "main.1a8a0596.css.map": "/secure-messaging/static/css/main.1a8a0596.css.map",
+    "main.c88064dc.js.map": "/secure-messaging/static/js/main.c88064dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8a0596.css",
+    "static/js/main.c88064dc.js"
+  ]
+}
